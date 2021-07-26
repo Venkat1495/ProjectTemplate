@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="156846" started-at="2021-07-27T02:38:04 IST" finished-at="2021-07-27T02:40:40 IST">
+    <groups>
+    </groups>
+    <test name="saucedemo" duration-ms="106864" started-at="2021-07-27T02:38:04 IST" finished-at="2021-07-27T02:39:50 IST">
+      <class name="saucedemo.LoginTest">
+        <test-method status="PASS" signature="Fn_SauceDemoURL()[pri:0, instance:saucedemo.LoginTest@f1da57d]" name="Fn_SauceDemoURL" duration-ms="95691" started-at="2021-07-27T02:38:04 IST" finished-at="2021-07-27T02:39:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fn_SauceDemoURL -->
+        <test-method status="PASS" signature="Fn_Login_Validation()[pri:0, instance:saucedemo.LoginTest@f1da57d]" name="Fn_Login_Validation" duration-ms="4813" started-at="2021-07-27T02:39:41 IST" depends-on-methods="saucedemo.LoginTest.Fn_SauceDemoURL" finished-at="2021-07-27T02:39:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fn_Login_Validation -->
+        <test-method status="PASS" signature="Fn_Products_Validation_Adding()[pri:0, instance:saucedemo.LoginTest@f1da57d]" name="Fn_Products_Validation_Adding" duration-ms="907" started-at="2021-07-27T02:39:47 IST" depends-on-methods="saucedemo.LoginTest.Fn_Login_Validation" finished-at="2021-07-27T02:39:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fn_Products_Validation_Adding -->
+        <test-method status="PASS" signature="Fn_Close_Browser()[pri:0, instance:saucedemo.LoginTest@f1da57d]" name="Fn_Close_Browser" is-config="true" duration-ms="1712" started-at="2021-07-27T02:39:49 IST" finished-at="2021-07-27T02:39:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fn_Close_Browser -->
+      </class> <!-- saucedemo.LoginTest -->
+    </test> <!-- saucedemo -->
+    <test name="Automation" duration-ms="45568" started-at="2021-07-27T02:39:55 IST" finished-at="2021-07-27T02:40:40 IST">
+      <class name="Automation.HomePage">
+        <test-method status="PASS" signature="navApplication(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Automation.HomePage@29d80d2b]" name="navApplication" duration-ms="22496" started-at="2021-07-27T02:39:55 IST" data-provider="data_navApplication" finished-at="2021-07-27T02:40:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.qaclickacademy.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testdata@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navApplication -->
+        <test-method status="PASS" signature="Fn_Close_Browser()[pri:0, instance:Automation.HomePage@29d80d2b]" name="Fn_Close_Browser" is-config="true" duration-ms="749" started-at="2021-07-27T02:40:18 IST" finished-at="2021-07-27T02:40:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fn_Close_Browser -->
+        <test-method status="PASS" signature="navApplication(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Automation.HomePage@29d80d2b]" name="navApplication" duration-ms="20792" started-at="2021-07-27T02:40:19 IST" data-provider="data_navApplication" finished-at="2021-07-27T02:40:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.qaclickacademy.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testdata2@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navApplication -->
+        <test-method status="PASS" signature="Fn_Close_Browser()[pri:0, instance:Automation.HomePage@29d80d2b]" name="Fn_Close_Browser" is-config="true" duration-ms="466" started-at="2021-07-27T02:40:40 IST" finished-at="2021-07-27T02:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fn_Close_Browser -->
+      </class> <!-- Automation.HomePage -->
+    </test> <!-- Automation -->
+  </suite> <!-- Suite -->
+</testng-results>

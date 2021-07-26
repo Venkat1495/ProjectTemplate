@@ -1,0 +1,6 @@
+13:15:40.757 [main] INFO  resources.Base - Navigated to the URLhttp://www.qaclickacademy.com/
+13:15:46.344 [main] INFO  resources.Base - Passing Email ID :testdata2@gmail.com& Password :Test1234 And submitting for 2 diff invalied credentials
+23:34:46.934 [main] INFO  resources.Base - Navigated to URLhttps://www.saucedemo.com/
+23:34:55.015 [main] INFO  resources.Base - Passsing the UserID, Password and submitting
+23:35:00.659 [main] INFO  resources.Base - Closing the SauceDemo Browser
+23:35:29.517 [main] INFO  resources.Base - Navigated to the URLhttp://www.qaclickacademy.com/

@@ -1,0 +1,2 @@
+02:40:35.680 [main] INFO  resources.Base - Navigated to the URLhttp://www.qaclickacademy.com/
+02:40:40.179 [main] INFO  resources.Base - Passing Email ID :testdata2@gmail.com& Password :Test1234 And submitting for 2 diff invalied credentials

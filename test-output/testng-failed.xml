@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ListenersTestNG.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="saucedemo(failed)">
+    <classes>
+      <class name="saucedemo.ProductTest">
+        <methods>
+          <include name="Fn_Products_Validation_Adding"/>
+        </methods>
+      </class> <!-- saucedemo.ProductTest -->
+    </classes>
+  </test> <!-- saucedemo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
